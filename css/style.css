@@ -9,6 +9,11 @@ img {
     max-width: 100%;
 }
 
+a {
+    color: inherit;
+    display: inherit;
+}
+
 .wrapper {
     width: 100%;
     height: calc(100vh - 70px);
@@ -71,11 +76,12 @@ footer {
     font-size: 1.5rem;
     display: flex;
     vertical-align: 70px;
-    gap: 1rem;
+    
 }
 
 .angle-up {
     font-size: .7rem;
+    align-self: first baseline;
 }
 
 .actions {
@@ -89,7 +95,11 @@ footer {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    gap: 1rem;
+    gap: 1rem;    
+}
 
-    
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: .5rem;
 }
