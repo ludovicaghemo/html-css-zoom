@@ -12,6 +12,7 @@ img {
 a {
     color: inherit;
     display: inherit;
+    list-style-type: inherit;
 }
 
 .wrapper {
@@ -98,8 +99,20 @@ footer {
     gap: 1rem;    
 }
 
-ul {
+ul, li {
     display: flex;
     list-style-type: none;
     gap: .5rem;
+}
+
+.end-meeting {
+    display: flex;
+    align-self: flex-end;
+    color: red;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #4a4a4a;
+    padding: 25px 12px;
 }
